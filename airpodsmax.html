@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airpods max</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #ffffff;
+            background-color: #000000;
+        }
+        /* Черный фон для навбара */
+.navbar {
+  background-color: black; /* Черный фон */
+  padding: 10px 15px;
+}
+
+/* Белая кнопка назад */
+.navbar .back-button {
+  color: white; /* Белый цвет для кнопки */
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Отступ для основного контента, чтобы не перекрывался навбаром */
+body {
+  padding-top: 56px; /* Задаем отступ, чтобы контент не перекрывался навбаром */
+}
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            z-index: 1000;
+        }
+        header .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        header .nav a {
+            text-decoration: none;
+            color: #1d1d1f;
+            margin: 0 10px;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://avatars.mds.yandex.net/i?id=71df1e9229b5f801c157cac9e19b7cf9_l-5236925-images-thumbs&n=13') no-repeat center center/cover;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            color: rgb(255, 255, 255);
+            font-family: fantasy, sans-serif;
+
+        }
+        .hero p {
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            margin: 20px 0;
+            font-family: fantasy, sans-serif;
+        }
+        .hero .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #ffffff;
+            background-color: #0071e3;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-family: fantasy, sans-serif;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature {
+            background: #1b1b1b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(247, 244, 244, 0.582);
+            width: 300px;
+            text-align: left;
+        }
+        .feature img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .carousel {
+            position: absolute;
+            width: 100%;
+            margin: 5px;
+        }
+        .carousel-images {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-image {
+            width: 1%;
+            height: 1px;
+        }
+        .carousel button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .prev {
+            left: 0;
+        }
+        .next {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <!-- Кнопка назад -->
+          <a class="navbar-brand back-button" href="javascript:history.back()">← Back</a>
+        </div>
+      </nav>
+    <header>
+
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>Welcome to Our Product</h1>
+            <p>Explore the latest innovations we have to offer.</p>
+            <p>999$</p>
+            <a href="#" class="cta">BUY</a>
+        </div>
+    </div>
+
+    <section>
+        <h2>Product Features</h2>
+        <p>Discover the incredible features of our latest product and how it can improve your life.</p>
+        <div class="features">
+            <div class="feature">
+                <img src="https://shop.mts.ru/upload/images/besprovodnye-naushniki-s-mikrofonom-apple-airpods-max-3.png" alt="Feature 1">
+                <h3>Feature 1</h3>
+                <p>High-Quality Sound: Active Noise Cancellation (ANC), spatial audio, and custom drivers for immersive sound.</p>
+            </div>
+            <div class="feature">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Apple_AirPods_Max_2.jpg" alt="Feature 2">
+                <h3>Feature 2</h3>
+                <p>Premium Design: Aluminum frame, memory foam ear cushions, and a breathable mesh canopy for comfort and durability.</p>
+            </div>
+            <div class="feature">
+                <img src="https://doctorhead.ru/upload/medialibrary/b64/design_comfort_f5gwnm9e6ci2_large.jpg" alt="Feature 3">
+                <h3>Feature 3</h3>
+                <p>Seamless Integration: Instant pairing, easy switching between Apple devices, and long battery life with 20 hours of playback.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.cnet.com/a/img/resize/30e29fb60b90dd051e28a6b34815747412ed7241/hub/2020/12/08/14d95f63-3b9a-4b16-86b3-38d14baee2e5/airpod-max-black-background.png?auto=webp&fit=crop&height=675&width=1200" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.sketchfab.com/models/2051443fe666408abd1b329daf452cb3/thumbnails/79da3245d0f64906b5fa8f00032d8634/d495507e7415412f91d9c2d3458a39d0.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://assets.gqindia.com/photos/5fec26fbd3819921a7dfc140/16:9/w_2560%2Cc_limit/Airpods-Pro-Max-Gold.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        let currentSlide = 0;
+
+        function moveSlide(step) {
+            const slides = document.querySelectorAll('.carousel-image');
+            const totalSlides = slides.length;
+
+            currentSlide += step;
+            if (currentSlide < 0) currentSlide = totalSlides - 1;
+            if (currentSlide >= totalSlides) currentSlide = 0;
+
+            const carousel = document.querySelector('.carousel-images');
+            carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
+</body>
+</html>

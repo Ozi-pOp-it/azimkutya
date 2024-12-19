@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <link rel="icon" type="image/png" href="https://recyclemyapplefiles.s3.eu-west-2.amazonaws.com/catalog_images/brand/B4Xp8gsxkTbwoIYOdlKerbUBZJZH6AuKtCjZTfbp.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>AZIM AND KUTMAN</title>
+
+    <style>
+
+      body {
+        background-color: #000000e1;
+        color: white;
+        font-family: 'Arial', sans-serif;
+      }
+
+
+      .header {
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px 0;
+        z-index: 10;
+      }
+
+      .navbar {
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+      }
+      
+
+      .navbar-brand img {
+        height: 40px;
+        
+      }
+
+      .navbar-nav .nav-item .nav-link {
+        color: #ffffff !important;
+        padding: 20px 15px;
+        font-weight: bold;
+      }
+
+      .navbar-nav .nav-item .nav-link:hover {
+        color: #424242 !important; 
+        text-decoration: underline;
+      }
+
+      .navbar-toggler {
+      border: none;
+      } 
+
+      .navbar-toggler-icon {
+      background-image: none; 
+      width: 30px; 
+      height: 3px; 
+      background-color: white; 
+      position: relative;
+      }
+
+      .navbar-toggler-icon::before,
+      .navbar-toggler-icon::after {
+      content: '';
+      position: absolute;
+      width: 30px; 
+      height: 3px; 
+      background-color: white;
+      left: 0;
+      }
+
+      .navbar-toggler-icon::before {
+      top: -8px; 
+      }
+
+.navbar-toggler-icon::after {
+  bottom: -8px; 
+}
+
+      .card {
+        background-color: #000000;
+
+      }
+
+      .card-img-top {
+        border-radius: 1px 1px 0 0;
+        margin-top: 25px;
+        max-width: calc(100% - 35px); 
+        margin-left: 20px;
+      }
+
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+      }
+
+      .card-body {
+        padding: 1.25rem;
+        text-align: center;
+      }
+
+      .card-text {
+        color: #ffffff;
+        text-align: center;
+      }
+      
+
+      .btn-primary {
+        background-color: #0004f8ad;
+        border: none;
+
+      }
+
+      .btn-primary:hover {
+        background-color: #272626;
+
+      }
+
+      .carousel-item img {
+        height: 855px;
+        object-fit: cover;
+        position: relative;
+
+      }
+
+      .carousel-caption h5, .carousel-caption p {
+        color: #fff;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+      }
+
+
+      footer {
+        background-color: #1f1f1f;
+        padding: 2rem 0;
+        text-align: center;
+        color: #fff;
+        font-size: 1rem;
+        background-color: #0c0c0c;
+
+      }
+
+      footer a {
+        color: #f1c40f;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .my-4 h1 {
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      
+
+  
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .col {
+        flex: 1 1 calc(25% - 1rem);
+        
+      }
+
+      @media (max-width: 992px) {
+        .col {
+          flex: 1 1 calc(33.33% - 1rem);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .col {
+          flex: 1 1 calc(50% - 1rem);
+        }
+      }
+
+      @media (max-width: 576px) {
+        .col {
+          flex: 1 1 100%;
+        }
+      }
+      .navbar {
+      background-color: black; 
+      padding: 10px 15px;
+      }
+
+  
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg" alt="Careltu">
+          </a>
+          <div class="logo">Apple</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav"> 
+
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Models">Models</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Contacts">Contacts</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="Home" class="my-4 text-center"></section>
+    <body text="black">
+    <center><h1 class="my-4"></h1></center>
+    </body>
+    <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img  src="https://sun9-27.userapi.com/impg/EQvko3LsXbXkwe3qwVGvHNWDGcyuLb3jBLWdVg/OkDook5z8Dw.jpg?size=1148x644&quality=95&sign=c7bf9eb799158429094f8806ec1278a0&c_uniq_tag=B5pVpZtRPBhlMTaSCNoftrVMcmL2uqJlaDnMpIzWMpQ&type=album" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://fscl01.fonpit.de/userfiles/7687254/image/Apple_MacBook_Air_15/nextpit_MacBook_Air_15_Test.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.go4it.ro/wp-content/uploads/2020/09/Apple-Watch-Series-6.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+ 
+    <section id="Models" class="my-4 text-center"></section>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md- g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://frankfurt.apollo.olxcdn.com/v1/files/q3yd84pv94652-KZ/image;s=2000x2000" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Iphone 15 pro max</h5>
+
+              <div class="text-center">
+                <a href="iphone15.html" class="btn btn-primary">for 999€</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-16.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Iphone 16</h5>
+
+              <div class="text-center">
+                <a href="iphone16.html" class="btn btn-primary">for 1299€</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="main my-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://media.wired.com/photos/6540132b66be81bd2cdb4030/1:1/w_1799,h_1799,c_limit/Gear-Apple-MacBook-Pro-2up_print.jpg" class="card-img-top" alt="Toyota Corolla">
+              <div class="card-body">
+                <h5 class="card-title">Macbook pro m3</h5>
+                <p class="card-text">best macbook</p>
+                <a href="mac.html" class="btn btn-primary">for 1999€</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/apple-airpods-pro-2nd-gen-hero-220907-5000-1662590602.jpg" class="card-img-top" alt="Toyota Corolla">
+              <div class="card-body">
+                <h5 class="card-title">Airpods pro 2</h5>
+                <p class="card-text">best headphones</p>
+                <a href="airpodspro.html" class="btn btn-primary">for 499€</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://static.tildacdn.com/tild3038-6330-4839-a164-316331663330/hero_startframe__k6x.jpg" class="card-img-top" alt="Toyota Corolla">
+              <div class="card-body">
+                <h5 class="card-title">Apple vision pro</h5>
+                <p class="card-text">new collection</p>
+                <a href="applevision.html" class="btn btn-primary">for 1999€</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="main my-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.myipadbox.com/sec/product_l/MPD8801.jpg" class="card-img-top" alt="Toyota Corolla">
+              <div class="card-body">
+                <h5 class="card-title">Airtag</h5>
+                <p class="card-text">new project</p>
+                <a href="airtag.html" class="btn btn-primary">for 999€</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://itc.ua/wp-content/uploads/2021/12/imac.jpg" class="card-img-top" alt="Toyota ">
+              <div class="card-body">
+                <h5 class="card-title">Imac</h5>
+                <p class="card-text">best pc</p>
+                <a href="Imac.html" class="btn btn-primary">for 2999€</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://media.idownloadblog.com/wp-content/uploads/2020/12/twelve-south-airfly-pro-airpods-max-hero-005.jpg" class="card-img-top" alt="Toyota Corolla">
+              <div class="card-body">
+                <h5 class="card-title">Airpods max</h5>
+                <p class="card-text">comfort headphones</p>
+                <a href="airpodsmax.html" class="btn btn-primary">for 999€</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <footer>
+      <section id="Contacts" class="my-4 text-center"></section>
+      <div class="footer-logo">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg" alt="UEFA Logo" style="max-height: 50px;">
+      </div>
+    
+      <div>
+        <p href= ""><strong>Contact Us:</strong> apple@gmail.com</p>
+      </div>
+    
+      <div class="social-icons">
+        <a href="https://www.apple.com" target="_blank"><i class="bi bi-Apple"></i> Apple</a>
+        <a href="https://www.instagram.com/apple/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+        <a href="https://www.youtube.com/@Apple" target="_blank"><i class="bi bi-Youtube"></i> Youtube</a>
+      </div>
+    
+
+    
+
+
+    </footer>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <style>
+      footer {
+        background-color: #000000;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+      }
+    
+      footer a {
+        color: #424242;
+        text-decoration: none;
+      }
+    
+      footer a:hover {
+        text-decoration: underline;
+      }
+    
+      .social-icons a {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 1.5rem;
+      }
+    
+      .social-icons a:hover {
+        color: #424242;
+      }
+    
+      .email-signup input[type="email"] {
+        width: 200px;
+        padding: 10px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+      }
+    
+      .email-signup button {
+        padding: 10px 20px;
+        background-color: #424242;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+    
+      .email-signup button:hover {
+        background-color: #424242;
+      }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+

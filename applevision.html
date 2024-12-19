@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone 16</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #ffffff;
+            background-color: #000000;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            z-index: 1000;
+        }
+        header .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        header .nav a {
+            text-decoration: none;
+            color: #1d1d1f;
+            margin: 0 10px;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://grupovierci.brightspotcdn.com/dims4/default/814aef5/2147483647/strip/true/crop/1280x721+0+42/resize/2000x1126!/quality/90/?url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe5%2F3a%2Fadd966054996b884dbb81b24fe38%2Fla-realidad-virtual-supera-barreras-con-las-vision-pro.png') no-repeat center center/cover;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            color: rgb(0, 26, 255);
+            font-family: fantasy, sans-serif;
+
+        }
+        .hero p {
+            font-size: 1.5rem;
+            color: rgb(0, 13, 128);
+            margin: 20px 0;
+            font-family: fantasy, sans-serif;
+        }
+        .hero .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #ffffff;
+            background-color: #0071e3;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-family: fantasy, sans-serif;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature {
+            background: #1b1b1b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(247, 244, 244, 0.582);
+            width: 300px;
+            text-align: left;
+        }
+        .feature img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .carousel {
+            position: absolute;
+            width: 100%;
+            margin: 5px;
+        }
+        .carousel-images {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-image {
+            width: 1%;
+            height: 1px;
+        }
+        .carousel button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .prev {
+            left: 0;
+        }
+        .next {
+            right: 0;
+        }
+        .navbar {
+  background-color: black; /* Черный фон */
+  padding: 10px 15px;
+}
+
+/* Белая кнопка назад */
+.navbar .back-button {
+  color: white; /* Белый цвет для кнопки */
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Отступ для основного контента, чтобы не перекрывался навбаром */
+body {
+  padding-top: 56px; /* Задаем отступ, чтобы контент не перекрывался навбаром */
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <!-- Кнопка назад -->
+          <a class="navbar-brand back-button" href="javascript:history.back()">← Back</a>
+        </div>
+      </nav>
+    <header>
+
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>Welcome to Our Product</h1>
+            <p>Explore the latest innovations we have to offer.</p>
+            <p>1.999$</p>
+            <a href="#" class="cta">BUY</a>
+        </div>
+    </div>
+
+    <section>
+        <h2>Product Features</h2>
+        <p>Discover the incredible features of our latest product and how it can improve your life.</p>
+        <div class="features">
+            <div class="feature">
+                <img src="https://sun9-72.userapi.com/impg/dLw_Ad--ri9wwm753VIJupduwHtAim4Qb4wUlA/UivT73EUnq8.jpg?size=1024x1024&quality=95&sign=678685ecc1dfe6b888a4fae6fe7daf72&c_uniq_tag=wEO04AqjwPTYmxBv3xHqcfzrjN2j1vXL5VFEWHNCCPM&type=album" alt="Feature 1">
+                <h3>Feature 1</h3>
+                <p>Immersive Visuals
+                    23 million-pixel displays deliver 4K+ detail per eye, blending augmented and virtual reality seamlessly.</p>
+            </div>
+            <div class="feature">
+                <img src="https://images.squarespace-cdn.com/content/v1/51a26726e4b0f0ad7357f298/1704755554702-71L9OPF4E5VAB9N05ZCT/Box+Contents+Site+Cover.jpg" alt="Feature 2">
+                <h3>Feature 2</h3>
+                <p>Intuitive Interaction
+                    Controlled with eyes, hands, and voice via visionOS, enabling natural and precise input.</p>
+            </div>
+            <div class="feature">
+                <img src="https://sun6-21.userapi.com/impg/5XKCPdTtoG8rsgn5RjMOaAjE5LyLXicdp1ugbQ/hgNhgijpww0.jpg?size=900x900&quality=95&sign=d197f860a7ee7e6eacb9c887cb59dc69&c_uniq_tag=IZKF6jnxUKZ3xT39NxWdXB5r_EmvOXJ1wtIMAislAp0&type=album" alt="Feature 3">
+                <h3>Feature 3</h3>
+                <p>Personalized Spatial Audio
+                    Adaptive sound and versatile apps for entertainment, productivity, fitness, and immersive FaceTime.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.mos.cms.futurecdn.net/8h3cHXCFVwT3Zmbmop2DrX.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://zephyrnet.com/wp-content/uploads/2023/07/apple-vision-pro-will-reportedly-have-a-very-slow-rollout.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.atarikafa.com/topluluk/wp-content/uploads/2023/06/Sequence-01.00_06_17_04.Still012.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        let currentSlide = 0;
+
+        function moveSlide(step) {
+            const slides = document.querySelectorAll('.carousel-image');
+            const totalSlides = slides.length;
+
+            currentSlide += step;
+            if (currentSlide < 0) currentSlide = totalSlides - 1;
+            if (currentSlide >= totalSlides) currentSlide = 0;
+
+            const carousel = document.querySelector('.carousel-images');
+            carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
+</body>
+</html>
